@@ -1,14 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   init_dongles.c                                             :+:      :+:    :+:   */
+/*   init_dongle.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musipit <musipit@student.42kocaeli.com.tr>  #+#  +:+      +#+        */
+/*   By: musipit <musipit@student.42kocaeli.com.tr> #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-10-26 15:53:07 by musipit           #+#    #+#             */
-/*   Updated: 2026-10-26 15:53:07 by musipit          ###   ########.fr       */
+/*   Created: 2026-10-27 09:34:29 by musipit           #+#    #+#             */
+/*   Updated: 2026-10-27 09:34:29 by musipit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "codexion.h"
 
 int	init_dongle(t_dongle *d)
 {

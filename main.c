@@ -24,5 +24,8 @@ int	main(int argc, char **argv)
 		fprintf(stderr, "Error: initialization failed\n");
 		return (1);
 	}
+	if (!run_sim(&sim))
+		fprintf(stderr, "Error: thread creation failed\n");
+	destroy_sim(&sim);
 	return (0);
 }

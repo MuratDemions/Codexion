@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: musipit <musipit@student.42kocaeli.com.tr>  #+#  +:+      +#+        */
+/*   By: musipit <musipit@student.42kocaeli.com.tr>  #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-10-26 15:53:07 by musipit           #+#    #+#             */
-/*   Updated: 2026-10-26 15:53:07 by musipit          ###   ########.fr       */
+/*   Created: 2026-10-26 15:55:30 by musipit           #+#    #+#             */
+/*   Updated: 2026-10-26 15:55:30 by musipit          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "codexion.h"
 
 int	init_sim(t_sim *sim)
