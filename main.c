@@ -19,5 +19,10 @@ int	main(int argc, char **argv)
 	memset(&sim, 0, sizeof(t_sim));
 	if (!parse_args(argc, argv, &sim.p))
 		return (1);
+	if (!init_sim(&sim))
+	{
+		fprintf(stderr, "Error: initialization failed\n");
+		return (1);
+	}
 	return (0);
 }

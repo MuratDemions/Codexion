@@ -69,5 +69,8 @@ typedef struct s_sim
 }	t_sim;
 
 int		parse_args(int argc, char **argv, t_params *p);
+int		init_sim(t_sim *sim);
+int		init_dongle(t_dongle *d);
+int		init_dongles(t_sim *sim);
 
 #endif
